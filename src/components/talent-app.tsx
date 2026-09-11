@@ -110,7 +110,7 @@ export default function TalentApp() {
   const [jobs, setJobs] = useState(createJobs);
   const [candidateState, setCandidateState] = useState(createCandidateProfiles);
   const [selectedJob, setSelectedJob] = useState<string | null>(null);
-  const [locale, setLocale] = useState<Locale>("ru");
+  const [locale, setLocale] = useState<Locale>("en");
   const [section, setSection] = useState(0);
   const [mobile, setMobile] = useState(false);
   const [palette, setPalette] = useState(false);
